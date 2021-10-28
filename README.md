@@ -1,6 +1,6 @@
-# RNAseq-data-re-analysis
+# RNAseq data re-analysis
 The aim was to re-analyze published RNAseq differential expression dataset for comparison of gene expression between two kind of stem cells. 
-The data was originally published in the paper ....
+The data was originally published in the paper https://www.nature.com/articles/s41467-019-10197-x
 
 # Method
 *Data retrieval* : I downloaded six fastq files related to this project from Gene expression Omnibus link provided earlier using SRA tools and CLC genomics v10 download tool. The hg38 version of the human genome, including various annotations were also downloaded from Ensembl website.
@@ -15,9 +15,10 @@ step 2: right-click on the "download" button and choose "save link as", then cho
 step 3: Double-click on the html file to open it on your preferred browser
 
 # Softwares
-- R
+- R 
 - CLC genomics 
 
 # Computer
+All analyses were performed on Ubuntu 18.04.5LTS operating system, memory 64GB, Intel Xeon(R) CPU v3 @ 1.6GHZ x 12, Graphics GeForce RTX 2080/PCIe/SSE2.
 
 
